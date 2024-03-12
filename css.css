@@ -1,0 +1,101 @@
+body{
+    background-color: #f5d14eff;
+}
+
+#caja_principal{
+    background-color: #ffffffff;
+    height: 520px;
+    width: 390px;
+    border-radius: 10px;
+    border: 1px black solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px;
+}
+
+.imagen1{
+    display: block;
+    height: 200px;
+    width: 337px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 16px
+}
+
+.imagen2{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 17px;
+    font-family: "FigTreeExtraBold", sans-serif;
+    text-align: center;
+}
+
+.caja_secundaria{
+    height: 34px;
+    width: 122px;
+    background-color: #f5ce42ff;
+    margin-left: 28px;
+    margin-top: 28px;
+    border-radius: 10px;
+    font-family: "FigTreeExtraBold", sans-serif;}
+
+.fecha{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 29px;
+    display: block;
+    margin-top: 15px;
+    font-family: "FigTreeExtraBold", sans-serif;
+}
+
+
+
+h1{
+    font-family: Figtree, sans-serif;
+    font-size: 22px;
+    margin-left: 28px;
+    font-weight: 900;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: #f5ce42ff;
+}
+
+
+
+.caja_texto{
+    font-size: 16px;
+    color: #808080;
+    font-family: Figtree, sans-serif;
+    font-weight: 600;
+    margin-left: 29px;
+    margin-top: 16px;
+    display: block;
+    width: 285px;
+}
+
+.perfil{
+    margin-left: 25px;
+}
+
+.perfil img{
+    display: block;
+    margin-top: 10px;
+}
+
+.perfil span{
+    display: block;
+    margin-top: -27px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: Figtree, sans-serif;
+
+}
